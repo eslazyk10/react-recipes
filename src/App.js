@@ -33,6 +33,8 @@ const App = () => {
   
   return (
     <div className="App">
+      <h1>Recipe Finder</h1>
+      <h3>Search your favorite recipe or get creative suggestions for a specific ingredient!</h3>
       <form className="search-form" onSubmit={getSearch}>
         <input
           className="search-bar"
